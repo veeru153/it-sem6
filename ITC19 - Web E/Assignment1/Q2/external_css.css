@@ -1,0 +1,13 @@
+h2, p {
+    color: #dedede;
+}
+
+hr {
+    border: 2px dashed #dedede;
+}
+
+a {
+    display: block;
+    color: rgb(149, 149, 255);
+    margin: 16px 0;
+}
