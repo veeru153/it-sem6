@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 72vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main a {
+    text-decoration: none;
+    color: blue;
+}
+.main a:hover {
+    text-decoration: underline;
+}
+
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc .vars {
+    display: flex;
+    flex-direction: row;
+}
+.calc .vars div { margin: 0 8px };
+.calc .btns {
+    margin: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2018UIT2501 - Assignment 2 - Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./calculator.js" defer></script>
+</head>
+<body class="calc">
+    <div class="vars">
+        <div>
+            <h1>a</h1>
+            <input id="a" type="text" value="0" autocomplete="off"/>
+        </div>
+        <div>
+            <h1 id="op"></h1>
+        </div>
+        <div>
+            <h1>b</h1>
+            <input id="b" type="text" value="0" autocomplete="off"/>
+        </div>
+        <h1>=</h1>
+        <div>
+            <h1 id="result"></h1>
+        </div>
+    </div>
+    <div class="btns">
+        <button id="add" onclick="calc('add')">+</button>
+        <button id="sub" onclick="calc('sub')">-</button>
+        <button id="mul" onclick="calc('mul')">×</button>
+        <button id="div" onclick="calc('div')">÷</button>
+    </div>
+</body>
+</html>
